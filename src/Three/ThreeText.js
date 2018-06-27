@@ -116,7 +116,6 @@ export default function(container, suffix){
     }
     
     function updateLayer(text, colors, position){
-        
         enabled = true
 
         if(position === undefined){

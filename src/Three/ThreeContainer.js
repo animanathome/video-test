@@ -40,14 +40,11 @@ export default container => {
     bindEventListeners();
     render();
 
-    // listen for events
-    document.fonts.ready.then(() => {
-        window.setTimeout(() => {
-            events.dispatchEvent({ 
-                type: 'fontReady'
-            });
-        }, 200);
-    });
+    document.fonts.load('24pt "Uni Sans"').then(function(){
+        events.dispatchEvent({ 
+            type: 'fontReady'
+        });
+    })
 
     return {
         setData
