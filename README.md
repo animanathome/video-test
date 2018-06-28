@@ -1,5 +1,3 @@
-![Preview](/preview.png)
-
 Overview
 --------
 
@@ -31,3 +29,8 @@ An example of how to use `VideoData` has already been completed by rendering som
 You may use any library you wish.
 
 A good starting spot is to look at the code in `src/VideoPreview.js`, it is already starting to work with the canvas element.
+
+
+Result
+----
+![Preview](/preview.png)
