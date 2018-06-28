@@ -10,6 +10,7 @@ export default function(container, events){
         videoElement = document.createElement('video')
         videoElement.id = 'video';
         videoElement.autoplay = false;
+        videoElement.muted = true;
         videoElement.loop = true;
         videoElement.crossOrigin = "anonymous";
         videoElement.style.display = 'none';
